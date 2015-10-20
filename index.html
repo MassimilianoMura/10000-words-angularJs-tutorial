@@ -9,7 +9,15 @@
 <body>
 
 <div ng-controller="myCtrl">
+
   {{ greeting }}
+
+  <ol>
+    <li ng-repeat="item in items">
+      {{ item.name }}
+    </li>
+  </ol>
+
 </div>
 
 </body>
