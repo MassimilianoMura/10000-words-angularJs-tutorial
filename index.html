@@ -20,7 +20,18 @@
 
 </div>
 
+<div ng-controller="mySecondCtrl as second">
+
+  <ol>
+    <li ng-repeat="item in second.items">
+      {{ item.name }}
+    </li>
+  </ol>
+
+</div>
+
 </body>
 <script src="js/app.js"></script>
 <script src="js/controllers/controller.js"></script>
+<script src="js/controllers/controller2.js"></script>
 </html>
